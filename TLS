@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+ 
+int main(){
+cout << "=====================================================" << endl;
+cout << "              Elvina Su'ada Maharani	 	              " << endl;
+cout << "=====================================================" << endl;
+cout << "   Membuat 3 Tabel Kolom Number, Square dan Cube     " << endl;
+cout << "=====================================================" << endl << endl;
+
+int x, y;
+cout << "Masukan Nilai Terkecil = ";
+cin >> x;
+cout << "Masukan Nilai Akhir = ";
+cin >> y;
+cout << "Number\t\t\tSquare\t\t\tCube" << endl;
+cout << "------\t\t\t------\t\t\t------" << endl;
+for(x=x;x<=y;x=x+1)
+cout << (x) << "\t\t\t" << (x*x) << "\t\t\t" << (x*x*x) << endl;
+}
